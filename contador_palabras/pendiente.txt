@@ -1,0 +1,44 @@
+Acceso Admin y serie del equipo
+11L3Y05538 REFACCIONES +++
+11L4209219 Ventas +++
+
+RLZ4312773 Admon +++
+Acceso Admin Admin                
+
+11L3Z06200 HYP +++
+11L3Z06199 Servicio   +++
+11L4209212 Seminuevos  +++
+11L3Y05541 Caja  +++
+
+11L3Z06206 Facturacion  +++
+
+
+Reportes para subir a SharePoint 
+Inventario de:   
+Autos Nuevos
+	Nuevos: Reportes -> Autos -> Inventario Almacenes-Costo   OK
+Seminuevos
+	Seminuevos: Reportes ->Autos -> Inventario de Unidades Usadas Costo- Venta  OK
+Refacciones
+	Refacciones: Reportes -> Refacciones -> Inventario detallado por clave de articulo (almacen R y RS1) R ok
+Ordenes en Proceso:
+	Servicio: Reportes -> Servicios -> Reporte de Ordenes de Servicio (Taller y Body) Taller  (01) ok Body (3) ok
+					-> Ordenes Pendientes con Refacciones (Taller y Body) Taller (01) ok Body (3) ok
+Explorador Servicio
+	Explorador-->Ventas-->Ventas en General Detalle (taller y Body) En estatus Pendientes Taller Ok (01) Body (3) ok
+
+
+*Continuar con el archivo de información de sistemas.
+*Cableado de Red Seminuevos.        
+*Por que en una orden de servicio (sucursal 3) a las refacciones se les debe de colocar un agente de refacciones y no un mecánico
+*Comprar 2 switch para diana y para impresora Anita
+*Comprar regulador par Local De Zihhua
+*Continuar con la actualización de inventario en mundo alden
+*Seguir revisando el archivo de Configuración de Candia
+*Respaldar correo de Diana
+*Mandar correo a Candia con la respuesta de Intelisis Gasto Prorrateado.
+*Enfocar 2 cámaras 
+*Instalar 4 camaras
+
+
+******iniciar con la auditoria de sistemasssss
