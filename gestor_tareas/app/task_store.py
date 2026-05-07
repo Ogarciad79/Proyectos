@@ -26,5 +26,11 @@ def completar_tarea(id: int) -> bool:
 
 
 def listar_tareas() -> list[dict[str, object]]:
-    """Copia ordenada por id (solo lectura segura para plantillas)."""
-    return sorted(_tareas, key=lambda t: int(t["id"]))
+    """Copia ordenada: incompletas arriba, completadas abajo; luego por id."""
+    return sorted(
+        _tareas,
+        key=lambda t: (
+            bool(t.get("completada", False)),
+            int(t.get("id", 0)),
+        ),
+    )
