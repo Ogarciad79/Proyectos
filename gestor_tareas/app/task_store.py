@@ -14,7 +14,13 @@ def agregar_tarea(texto: str) -> int | None:
     _siguiente_id += 1
     _tareas.append({"id": tid, "texto": limpio, "completada": False})
     return tid
+import json
 
+def guardar_datos():
+
+    with open('tareas.json', 'w') as f:
+
+        json.dump({'siguiente_id': siguiente_id, 'tareas': tareas}, f)
 
 def completar_tarea(id: int) -> bool:
     """Marca la tarea con ese id como completada. Devuelve True si existía."""

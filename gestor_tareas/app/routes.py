@@ -4,7 +4,23 @@ from .task_store import agregar_tarea, completar_tarea, listar_tareas
 
 bp = Blueprint("main", __name__)
 
+def cargar_datos():
 
+    global siguiente_id, tareas
+
+    try:
+
+        with open('tareas.json', 'r') as f:
+
+            data = json.load(f)
+
+            tareas = data['tareas']
+
+            siguiente_id = data['siguiente_id']
+
+    except FileNotFoundError:
+
+        pass
 @bp.get("/")
 def index():
     return render_template("index.html", tareas=listar_tareas())
