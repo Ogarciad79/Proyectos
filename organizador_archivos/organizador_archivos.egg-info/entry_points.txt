@@ -1,0 +1,2 @@
+[console_scripts]
+organizar-archivos = organizar:main

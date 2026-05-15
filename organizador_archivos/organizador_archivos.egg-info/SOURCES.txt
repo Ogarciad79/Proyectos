@@ -1,0 +1,7 @@
+organizar.py
+pyproject.toml
+organizador_archivos.egg-info/PKG-INFO
+organizador_archivos.egg-info/SOURCES.txt
+organizador_archivos.egg-info/dependency_links.txt
+organizador_archivos.egg-info/entry_points.txt
+organizador_archivos.egg-info/top_level.txt
